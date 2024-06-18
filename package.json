@@ -1,18 +1,24 @@
 {
-  "name": "auth-services",
-  "version": "1.0.0",
-  "description": "A mernstack auth-service",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js",
-    "format:check": "prettier . --check",
-    "format:fix": "prettier . --write"
-  },
-  "author": "Pradip hazarika",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.14.5",
-    "prettier": "3.3.2",
-    "typescript": "^5.4.5"
-  }
+    "name": "auth-services",
+    "version": "1.0.0",
+    "description": "A mernstack auth-service",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . --write",
+        "lint:fix": "eslint . --fix",
+        "lint": "eslint ."
+    },
+    "author": "Pradip hazarika",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.14.5",
+        "@typescript-eslint/eslint-plugin": "^7.13.1",
+        "@typescript-eslint/parser": "^7.13.1",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "3.3.2",
+        "typescript": "^5.4.5"
+    }
 }
