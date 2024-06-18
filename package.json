@@ -1,0 +1,11 @@
+{
+  "name": "auth-services",
+  "version": "1.0.0",
+  "description": "A mernstack auth-service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "author": "Pradip hazarika",
+  "license": "ISC"
+}
